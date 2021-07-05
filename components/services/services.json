@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_services_services",
+  "info": {
+    "name": "services",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "src": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "route": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}
