@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_journey_item_text_views",
+  "info": {
+    "name": "TextView",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    }
+  }
+}

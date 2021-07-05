@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/journey",
+      "handler": "journey.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/journey",
+      "handler": "journey.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/journey",
+      "handler": "journey.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

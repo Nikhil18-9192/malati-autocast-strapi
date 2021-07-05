@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "journeys",
+  "info": {
+    "name": "Journey"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "milestones": {
+      "type": "component",
+      "repeatable": true,
+      "component": "journey-item.journey"
+    }
+  }
+}
